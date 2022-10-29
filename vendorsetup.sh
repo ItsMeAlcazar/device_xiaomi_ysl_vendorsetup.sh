@@ -14,7 +14,7 @@ git clone https://github.com/FusionOS-Devices/android_vendor_xiaomi_msm8953-comm
 
 echo 'Cloning Kernel tree [4/6]'
 # Kernel Tree
-git clone https://github.com/sushmit1/kernel_xiaomi_ysl.git -b 12 kernel/xiaomi/msm8953
+git clone https://github.com/ItsMeAlcazar/kernel_xiaomi_msm8953.git -b 12 kernel/Xiaomi/msm8953
 
 echo 'Cloning Proton Clang [5/6]'
 # Proton Clang
