@@ -18,8 +18,8 @@ git clone https://github.com/ItsMeAlcazar/kernel_xiaomi_msm8953.git -b 12 kernel
 
 echo 'Cloning Proton Clang [5/6]'
 # Proton Clang
-git clone --depth=1 https://github.com/kdrag0n/proton-clang.git -b master prebuilts/clang/host/linux-x86/clang-proton &&
-git clone --depth=1 https://github.com/kdrag0n/proton-clang.git -b master prebuilts/clang/host/darwin-x86/clang-proton
+git clone https://github.com/kdrag0n/proton-clang.git -b master prebuilts/clang/host/linux-x86/clang-proton &&
+git clone https://github.com/kdrag0n/proton-clang.git -b master prebuilts/clang/host/darwin-x86/clang-proton
 
 echo 'Cloning Hardware Xiaomi' [6/6]
 # Hardware Xiaomi
